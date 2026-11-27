@@ -1,0 +1,12 @@
+# Animacja dla graczy, którzy jeszcze żadnej nie wybrali.
+# Dostępne: ROULETTE, VERTICAL, RING, DUAL, SLOT, ELIM, ORBIT, HELIX, BURST
+default-animation: ROULETTE
+
+# Ogłaszaj na czacie, gdy ktoś wylosuje rzadką nagrodę
+broadcast-rare: true
+
+# Nagroda jest "rzadka", gdy jej szansa (w procentach) jest równa lub niższa niż ta wartość
+rare-threshold-percent: 5.0
+
+# Ile ostatnich losowań pamiętać w historii
+history-size: 50

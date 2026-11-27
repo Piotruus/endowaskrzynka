@@ -1,0 +1,17 @@
+name: SkrzynkaGracza
+main: pl.skrzynka.SkrzynkaPlugin
+version: 1.0.0
+api-version: '1.20'
+description: Skrzynka z losowymi nagrodami, menu główne, edytor w oknie, otwieranie z animacją i bez.
+commands:
+  skrzynka:
+    description: Otwiera skrzynkę lub zarządza jej zawartością
+    usage: /skrzynka [menu|otworz|pomoc]
+    aliases: [skrzynia, crate]
+permissions:
+  skrzynka.use:
+    description: Pozwala otworzyć skrzynkę
+    default: true
+  skrzynka.admin:
+    description: Pozwala edytować zawartość skrzynki i dawać klucze
+    default: op
